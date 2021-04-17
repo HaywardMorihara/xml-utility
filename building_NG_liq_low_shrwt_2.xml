@@ -1,0 +1,2019 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>                    
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Eastern">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Northern">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Southern">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Western">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Australia_NZ">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Brazil">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Canada">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central America and Caribbean">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central Asia">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="China">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="district heat">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-12">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="district heat">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-15">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                     <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Eastern">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="district heat">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Non_EU">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="district heat">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="European Free Trade Association">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="India">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Indonesia">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Japan">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Mexico">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Middle East">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Pakistan">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Russia">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="district heat">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Africa">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Northern">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Southern">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Asia">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Korea">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Southeast Asia">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Taiwan">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Argentina">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule> 
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Colombia">
+            <supplysector name="building">
+                <subsector name="biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="coal">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="electricity">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+                <subsector name="gas">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="refined liquids">
+                    <share-weight year="2025">0.875</share-weight>
+                    <share-weight year="2030">0.75</share-weight>
+                    <share-weight year="2035">0.625</share-weight>
+                    <share-weight year="2040">0.5</share-weight>
+                    <share-weight year="2045">0.375</share-weight>
+                    <share-weight year="2050">0.25</share-weight>
+                    <share-weight year="2055">0.125</share-weight>
+                    <share-weight year="2060">0.125</share-weight>
+                    <share-weight year="2065">0.125</share-weight>
+                    <share-weight year="2070">0.125</share-weight>
+                    <share-weight year="2075">0.125</share-weight>
+                    <share-weight year="2080">0.125</share-weight>
+                    <share-weight year="2085">0.125</share-weight>
+                    <share-weight year="2090">0.125</share-weight>
+                    <share-weight year="2095">0.125</share-weight>
+                    <share-weight year="2100">0.125</share-weight>
+                    <interpolation-rule apply-to="share-weight"
+                        from-year="2015" to-year="2100">
+                    <interpolation-function name="fixed"/>
+                    <to-value>NA</to-value>
+                    <overwrite-policy warn="0">NEVER</overwrite-policy>
+                    </interpolation-rule>
+                </subsector>
+                <subsector name="traditional biomass">
+                    <share-weight year="1975">1</share-weight>
+                </subsector>
+            </supplysector>
+        </region>
+    </world>
+</scenario>
